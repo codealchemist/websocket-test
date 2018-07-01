@@ -1,0 +1,37 @@
+{
+  "name": "websocket-test",
+  "version": "1.0.0",
+  "description": "Periodically send messages to a websocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "websocket-test": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/websocket-test.git"
+  },
+  "keywords": [
+    "websocket",
+    "test",
+    "interval",
+    "ws",
+    "repeat"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/websocket-test/issues"
+  },
+  "homepage": "https://github.com/codealchemist/websocket-test#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "cli-cursor": "^2.1.0",
+    "printii": "^1.0.0",
+    "ws": "^5.2.1"
+  }
+}
